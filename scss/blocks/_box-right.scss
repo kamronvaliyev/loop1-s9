@@ -1,0 +1,119 @@
+.box-right {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $primary-color-border-b;
+    h2 {
+      font-size: 28px;
+      font-weight: 400;
+      margin-right: 100px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 500;
+      color: $primary-color-header-right;
+    }
+  }
+  .companies {
+    h2 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    p {
+      color: $primary-color-text;
+    }
+    img {
+      border: 1px solid $primary-color-border-b;
+      border-radius: 50%;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+    .text {
+      line-height: 5px;
+      margin-right: 25px;
+    }
+    .apple {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      a {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 19px;
+        color: $primary-color-price;
+      }
+    }
+    .funds {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-right: 40px;
+      .price {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 19px;
+        color: $primary-color-funds-price;
+      }
+    }
+    .energy {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      a {
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 700;
+        color: $primary-color-price;
+      }
+    }
+    .cinema {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-right: 10px;
+      li {
+        list-style: none;
+        text-decoration: none;
+        a {
+          text-decoration: none;
+          font-size: 19px;
+          font-weight: 700;
+          color: $primary-color-price;
+        }
+      }
+    }
+    .food {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-right: 50px;
+      a {
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 700;
+        color: $primary-color-price;
+      }
+    }
+    .gas {
+      display: flex;
+      align-items: center;
+      margin-right: 40px;
+      a {
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 700;
+        color: $primary-color-price;
+      }
+    }
+  }
+}
